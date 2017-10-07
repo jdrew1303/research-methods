@@ -1,3 +1,7 @@
+## Remove .tex file and only keep PDF
+
+*.tex
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
