@@ -29,5 +29,7 @@ Below I post a selection of useful links for each tutorial. If you found additio
 
 ### MT, Tutorial 01
 
-- To get you started and to ensure that you work reproducibly, have a look at the SPSS Syntax tutorial: https://www.spss-tutorials.com/spss-syntax-editor-window/.
 - Intro to the SPSS Environment: https://libguides.library.kent.edu/SPSS/GettingStarted.
+  - [Panels, symbols, output viewer](https://libguides.library.kent.edu/SPSS/Environment)
+  - [Syntax editor](https://www.spss-tutorials.com/spss-syntax-editor-window/)
+
