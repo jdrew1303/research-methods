@@ -29,7 +29,7 @@ Below I post a selection of useful links for each tutorial. If you found additio
 
 ### MT, Tutorial 01
 
-- Intro to the SPSS Environment: https://libguides.library.kent.edu/SPSS/GettingStarted.
+- [Introduction](https://libguides.library.kent.edu/SPSS/GettingStarted) to the SPSS Environment: 
   - [Panels, symbols, output viewer](https://libguides.library.kent.edu/SPSS/Environment)
   - [Syntax editor](https://www.spss-tutorials.com/spss-syntax-editor-window/)
-
+  - [Importing datasets](https://libguides.library.kent.edu/SPSS/ImportData)
