@@ -12,7 +12,7 @@ While we will cover a lot of the SPSS functions in the tutorials, for your homew
 
 #### SPSS
 
-- [SPSS Tutorials](https://www.spss-tutorials.com): A website with dozens of useful SPSS tutorials. To get you started and to ensure that you work reproducibly, have a look at the [SPSS Syntax tutorial](https://www.spss-tutorials.com/spss-syntax-editor-window/).
+- [SPSS Tutorials](https://www.spss-tutorials.com): A website with dozens of useful SPSS tutorials.
 - [Tutorials, Kent State University](https://libguides.library.kent.edu/SPSS/home): An wide range of written and illustrated  SPSS tutorials.
 
 #### R
@@ -22,3 +22,12 @@ While we will cover a lot of the SPSS functions in the tutorials, for your homew
 - [Moderndive](http://www.moderndive.com): A great interactive introduction to data visualisation and modelling in R.
 - [Stackoverflow](https://stackoverflow.com/questions/tagged/r): Here you will find almost all answers to specific questions.
 
+
+## Useful links for each tutorial
+
+Below I post a selection of useful links for each tutorial. If you found additional material that might be useful, either open a [pull request on GitHub](https://help.github.com/articles/about-pull-requests/) or let me know via email.
+
+### MT, Tutorial 01
+
+- To get you started and to ensure that you work reproducibly, have a look at the SPSS Syntax tutorial: https://www.spss-tutorials.com/spss-syntax-editor-window/.
+- Intro to the SPSS Environment: https://libguides.library.kent.edu/SPSS/GettingStarted.
