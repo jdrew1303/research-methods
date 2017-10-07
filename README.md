@@ -33,3 +33,5 @@ Below I post a selection of useful links for each tutorial. If you found additio
   - [Panels, symbols, output viewer](https://libguides.library.kent.edu/SPSS/Environment)
   - [Syntax editor](https://www.spss-tutorials.com/spss-syntax-editor-window/)
   - [Importing datasets](https://libguides.library.kent.edu/SPSS/ImportData)
+  
+- [Tutorial Slides](https://github.com/stefan-mueller/po3600/blob/master/slides/mt_tut_01.pdf)
