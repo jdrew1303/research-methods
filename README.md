@@ -1,6 +1,6 @@
 ## Tutorial: Research Methods in Political Science (PO3600)
 
-Welcome! This site contains useful material for the tutorials of the module [Reserach Methods for Political Science](https://www.tcd.ie/Political_Science/undergraduate/module-outlines/js/research-methods/). In particular, I will use this site to publish links to useful papers, tutorials, or general advice. If you have any questions feel free to get in [contact](http://muellerstefan.net/#contact) with me. You find the slides of the lectures, homeworks and dataset on [Blackboard](http://tcd.ie/blackboard).
+Welcome! This site contains useful material for the tutorials of the module [Reserach Methods for Political Science](https://www.tcd.ie/Political_Science/undergraduate/module-outlines/js/research-methods/). In particular, I will use this site to publish links to useful papers, tutorials, or general advice. If you have any questions feel free to get in [contact](http://muellerstefan.net/#contact) with me. You find the slides of the lectures, homeworks and datasets on [Blackboard](http://tcd.ie/blackboard). This webpage only supplements the information from Blackboard by offering additional material.
 
 ### Get and install SPSS
 
