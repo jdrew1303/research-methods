@@ -10,9 +10,13 @@ This course is based on SPSS. You are free to use alternative (and free) statist
 
 While we will cover a lot of the SPSS functions in the tutorials, for your homework and research project you will very likely need additional functions.
 
-Here I will collect useful websites with tutorials for SPSS. 
+#### SPSS
 
+You will find a lot of relevant tutorials online. The website 
 
+- [SPSS Tutorials](https://www.spss-tutorials.com): A website with dozens of useful SPSS tutorials. To get you started and to ensure that you work reproducibly, have a look at the [SPSS Syntax tutorial](https://www.spss-tutorials.com/spss-syntax-editor-window/).
+
+#### R
 If you work with R, I highly recommend the following websites. 
 
 - [Stackoverflow](https://stackoverflow.com/questions/tagged/r): Here you will find almost all answers to specific questions.
