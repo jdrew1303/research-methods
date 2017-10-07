@@ -12,14 +12,13 @@ While we will cover a lot of the SPSS functions in the tutorials, for your homew
 
 #### SPSS
 
-You will find a lot of relevant tutorials online. The website 
-
 - [SPSS Tutorials](https://www.spss-tutorials.com): A website with dozens of useful SPSS tutorials. To get you started and to ensure that you work reproducibly, have a look at the [SPSS Syntax tutorial](https://www.spss-tutorials.com/spss-syntax-editor-window/).
+- [Tutorials, Kent State University](https://libguides.library.kent.edu/SPSS/home). An wide range of written and illustrated  SPSS tutorials.
 
 #### R
-If you work with R, I highly recommend the following websites. 
 
-- [Stackoverflow](https://stackoverflow.com/questions/tagged/r): Here you will find almost all answers to specific questions.
 - https://stats.idre.ucla.edu/other/dae/
 - [UCLA Tutorials for R, Stata and SAS](https://stats.idre.ucla.edu/other/dae/): Very useful tutorials for the most important statistical analyses.
 - [Moderndive](http://www.moderndive.com): A great interactive introduction to data visualisation and modelling in R.
+- [Stackoverflow](https://stackoverflow.com/questions/tagged/r): Here you will find almost all answers to specific questions.
+
