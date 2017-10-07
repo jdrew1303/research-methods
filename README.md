@@ -15,4 +15,7 @@ Here I will collect useful websites with tutorials for SPSS.
 
 If you work with R, I highly recommend the following websites. 
 
-
+- [Stackoverflow](https://stackoverflow.com/questions/tagged/r): Here you will find almost all answers to specific questions.
+- https://stats.idre.ucla.edu/other/dae/
+- [UCLA Tutorials for R, Stata and SAS](https://stats.idre.ucla.edu/other/dae/): Very useful tutorials for the most important statistical analyses.
+- [Moderndive](http://www.moderndive.com): A great interactive introduction to data visualisation and modelling in R.
