@@ -1,6 +1,6 @@
 ## Tutorial: Research Methods in Political Science (PO3600)
 
-Welcome! This site contains useful material for the tutorials of the module [Reserach Methods for Political Science](https://www.tcd.ie/Political_Science/undergraduate/module-outlines/js/research-methods/). In particular, I will use this site to publish links to useful papers, tutorials, or general advice. If you have any questions feel free to get in [contact](http://muellerstefan.net/#contact) with me. You find the slides of the lectures, homeworks and datasets on [Blackboard](http://tcd.ie/blackboard). This webpage only supplements the information from Blackboard by offering additional material.
+Welcome! This site contains useful material for the tutorials of the module [Research Methods for Political Science](https://www.tcd.ie/Political_Science/undergraduate/module-outlines/js/research-methods/). In particular, I will use this site to publish links to useful papers, tutorials, or general advice. If you have any questions feel free to get in [contact](http://muellerstefan.net/#contact) with me. You find the slides of the lectures, homeworks and datasets on [Blackboard](http://tcd.ie/blackboard). This webpage only supplements the information from Blackboard by offering additional material.
 
 ### Get and install SPSS
 
@@ -27,9 +27,9 @@ While we will cover a lot of the SPSS functions in the tutorials, for your homew
 Throughout both Michaelmas and Hilary term you will need to submit homeworks, assignments and a research project. You are free to conduct the homework with SPSS or an alternative statistical software (for example Stata or R, but _not_ Excel).
 
 Some general rules: 
-1. The assignments must be typed into a LaTeX or Word/Open Office document and submitted as a PDF via Turnitin. Screenshots of the SPSS output is not sufficient as you will need to interpret the results and predures.
+1. The assignments must be typed into a LaTeX or Word/Open Office document and submitted as a PDF via Turnitin. Screenshots of the SPSS output are _not_ sufficient as you will need to interpret the results and predures.
 
-2. If you include tables, do not use a screenshot, but use the "export" function from SPSS. Please save figures appropriately in high resolution (I recommend PDF as vector graphic formats have the best possible quality).
+2. If you include tables, do not use a screenshot, but use the "export" function from SPSS. Please save figures appropriately in [high resolution](https://thepoliticalmethodologist.com/2013/11/25/making-high-resolution-graphics-for-academic-publishing/) (I recommend PDF as vector graphic formats have the best possible quality).
 
 3. Add the contents of the SPSS Syntax file/R script/Stata do file at the end of your document. It is good academic practice to present the full code and replication script. While SPSS has a point-and-klick interface, not relying on scripts results in extra work if you need to repeat an analysis. Even more important, only with scripts you can ensure reproducibility of your results. On the topic of reproducibility, have a look at the following links: 
 - [AJPS guidelines for preparing replication files](https://ajpsblogging.files.wordpress.com/2016/05/ajps-replic-guidelines-ver-2-1.pdf)
