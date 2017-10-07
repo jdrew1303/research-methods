@@ -1,10 +1,8 @@
-## Welcome to GitHub Pages
+## Tutorials: Research Methods in Political Science (PO3600)
 
-You can use the [editor on GitHub](https://github.com/stefan-mueller/po3600/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome! This site contains useful material for the tutorials of the module [Reserach Methods for Political Science](https://www.tcd.ie/Political_Science/undergraduate/module-outlines/js/research-methods/). In particular, I will use this site to publish links to useful papers, tutorials, or general advice. If you have any questions feel free to get in [contact](http://muellerstefan.net/#contact) with me.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Get and install SPSS
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
