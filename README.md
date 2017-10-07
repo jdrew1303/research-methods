@@ -27,21 +27,18 @@ While we will cover a lot of the SPSS functions in the tutorials, for your homew
 Throughout both Michaelmas and Hilary term you will need to submit homeworks, assignments and a research project. You are free to conduct the homework with SPSS or an alternative statistical software (for example Stata or R, but _not_ Excel).
 
 Some general rules: 
-1) The assignments must be typed into a LaTeX or Word/Open Office document and submitted as a PDF via Turnitin. Screenshots of the SPSS output is not sufficient as you will need to interpret the results and predures.
+1. The assignments must be typed into a LaTeX or Word/Open Office document and submitted as a PDF via Turnitin. Screenshots of the SPSS output is not sufficient as you will need to interpret the results and predures.
 
-2) If you include tables, do not use a screenshot, but use the "export" function from SPSS. Please save figures appropriately in high resolution (I recommend PDF as vector graphic formats have the best possible quality).
+2. If you include tables, do not use a screenshot, but use the "export" function from SPSS. Please save figures appropriately in high resolution (I recommend PDF as vector graphic formats have the best possible quality).
 
-3) Add a SPSS Syntax file/R script/Stata do file. It is good academic practise to present the full code and script. While SPSS has a point-and-klick interface, not relying on scripts results in extra work if you need to repeat an analysis. Only with scripts you can ensure reproducibility of the results. On the topic of reproducibility, have a look at the following links: 
+3. Add the contents of the SPSS Syntax file/R script/Stata do file at the end of your document. It is good academic practice to present the full code and replication script. While SPSS has a point-and-klick interface, not relying on scripts results in extra work if you need to repeat an analysis. Even more important, only with scripts you can ensure reproducibility of your results. On the topic of reproducibility, have a look at the following links: 
 - [AJPS guidelines for preparing replication files](https://ajpsblogging.files.wordpress.com/2016/05/ajps-replic-guidelines-ver-2-1.pdf)
 - [Reproducible research using the SPSS syntax option](https://libguides.library.kent.edu/SPSS/Syntax)
-Please copy the contents from the SPSS syntax file at the end of the submitted document.
-
+Therefore, please copy the contents from the SPSS syntax file at the end of the submitted document.
 
 ## Useful links for each tutorial
 
 Below I post a selection of useful links for each tutorial. If you found additional material that might be useful, either open a [pull request on GitHub](https://help.github.com/articles/about-pull-requests/) or let me know via email.
-
-## Michaelmas Term
 
 ### Tutorial 01
 
