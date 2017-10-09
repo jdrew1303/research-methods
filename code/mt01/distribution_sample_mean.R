@@ -4,35 +4,36 @@
 
 library(tidyverse)
 library(gridExtra)
-df <- read.csv("data/gaa_hurling_champions.csv")
 
-table(df$wins_football)
 
-df %>% 
-  arrange(- wins_football) %>% 
- # head() %>% 
-  select(-wins_hurling)
+# Load data
+df <- read.csv("data/gaa_champions.csv")
 
 df %>% 
-  arrange(- wins_hurling) %>% 
+  arrange(- titles_football) %>% 
  # head() %>% 
-  select(-wins_football)
+  select(-titles_hurling)
+
+df %>% 
+  arrange(- titles_hurling) %>% 
+ # head() %>% 
+  select(-titles_football)
 
 
-mean(df$wins_hurling)
+mean(df$titles_hurling)
 
-ggplot(df, aes(x = wins_hurling)) +
+ggplot(df, aes(x = titles_hurling)) +
   geom_histogram(colour = "black", fill = "grey50") + 
   scale_x_continuous(breaks = c(seq(0, 36, 2))) +
-  geom_vline(xintercept = mean(df$wins_hurling), colour = "red") +
+  geom_vline(xintercept = mean(df$titles_hurling), colour = "red") +
   labs(x = "All Ireland Senior Hurling Titles", y = "Number of Counties") +
 ggsave("plots/mt_01_hurling.pdf", width = 5, height = 3)
 
-ggplot(df, aes(x = wins_football)) +
+ggplot(df, aes(x = titles_football)) +
   geom_histogram() + 
   geom_histogram(colour = "black", fill = "grey50") + 
   scale_x_continuous(breaks = c(seq(0, 36, 2))) +
-  geom_vline(xintercept = mean(df$wins_football), colour = "red") +
+  geom_vline(xintercept = mean(df$titles_football), colour = "red") +
   labs(x = "All Ireland Senior Football Titles", y = "Number of Counties") +
 ggsave("plots/mt_01_football.pdf", width = 5, height = 3)
 
@@ -51,9 +52,9 @@ boot.mean <-  function(x, B, binwidth=NULL, title) {
   plot(p)
 }
 
-hurling <- with(df, boot.mean(wins_hurling, B = 1000, binwidth = 0.2, title = "Hurling")) 
+hurling <- with(df, boot.mean(titles_hurling, B = 1000, binwidth = 0.2, title = "Hurling")) 
 
-football <- with(df, boot.mean(wins_football, B = 1000, binwidth = 0.2, title = "Football"))
+football <- with(df, boot.mean(titles_football, B = 1000, binwidth = 0.2, title = "Football"))
 
 pdf("plots/mt_01_sampling_means.pdf", width = 10, height = 4)
 gridExtra::grid.arrange(hurling, football, nrow = 1)
