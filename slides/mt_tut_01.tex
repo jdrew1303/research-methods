@@ -68,7 +68,7 @@ backend=bibtex8]{biblatex}
 \begin{itemize}
 \item Deepen and apply knowledge from the lectures
 \item Learn how to use SPSS
-\item Apply theories, concept and statistical methods to real-world data
+\item Apply theories, concepts and statistical methods to real-world data
 \item Clarify questions, discuss homework
 \item \textbf{But tutorials do not replace the lectures!}
 \end{itemize}
@@ -131,6 +131,7 @@ Submit 4 homework exercises per term on Monday evening (11:59pm) preceding the t
 
 \end{frame}
 
+\begin{comment}
 \section{Support \& Additional Material}
 
 \begin{frame}{Support}
@@ -141,6 +142,15 @@ Submit 4 homework exercises per term on Monday evening (11:59pm) preceding the t
 \item Questions: mullers@tcd.ie
 \end{itemize}
 
+\end{frame}
+\end{comment}
+
+\section{How to Use SPSS}
+\begin{frame}{SPSS Exercise}
+\begin{itemize}
+\item How to open (data) in SPSS?
+\item How to work reproducibly in SPSS?
+\end{itemize}
 \end{frame}
 
 \section{Distribution of the Sample Mean}
@@ -155,12 +165,19 @@ As your sample size (\textit{n}) increases, we find a normal distribution when (
 
 \end{frame}
 
+\begin{frame}{Irish Example of Skewed Distribution}
+\pause
+\begin{figure} \centering
+\includegraphics[width=1\textwidth]{/Users/stefan/GitHub/po3600/plots/all_ireland.pdf}
+\end{figure}
+\end{frame}
+
 \begin{frame}{Distribution of All-Ireland Hurling Titles per County}
 
 \begin{figure} \centering
 \includegraphics[width=.85\textwidth]{/Users/stefan/GitHub/po3600/plots/mt_01_hurling.pdf}
 \end{figure}
-\textbf{Top 3}: 1. Kilkenny (36); 2. Cork (30); 3. Tipperary (27)
+%\textbf{Top 3}: 1. Kilkenny (36); 2. Cork (30); 3. Tipperary (27)
 \end{frame}
 
 \begin{frame}{Distribution of All-Ireland Football Titles per County}
@@ -168,7 +185,7 @@ As your sample size (\textit{n}) increases, we find a normal distribution when (
 \begin{figure} \centering
 \includegraphics[width=.85\textwidth]{/Users/stefan/GitHub/po3600/plots/mt_01_football.pdf}
 \end{figure}
-\textbf{Top 3}: 1. Kerry (37); 2. Dublin (27); 3. Galway (9)
+%\textbf{Top 3}: 1. Kerry (37); 2. Dublin (27); 3. Galway (9)
 \end{frame}
 
 \begin{frame}{Distribution of Bootstrapped Sample Means}
@@ -176,17 +193,53 @@ As your sample size (\textit{n}) increases, we find a normal distribution when (
 \begin{figure} \centering
 \includegraphics[width=1\textwidth]{/Users/stefan/GitHub/po3600/plots/mt_01_sampling_means.pdf}
 \end{figure}
-\textit{Note:} 1000 random draws, calculation of mean, plot of distribution; hypothetical example as we draw from the population!
+\textit{Note:} 1000 random draws, plot distribution of means; hypothetical example as we draw from the population!
 \end{frame}
 
 
-\section{How to Use SPSS}
-\begin{frame}{SPSS}
-\begin{itemize}
-\item How to open (data) in SPSS?
-\item How to work reproducibly in SPSS?
-\end{itemize}
+\begin{frame}{Estimate  mean, standard deviation, and standard error}
+\begin{enumerate}
+\item Estimate mean: $\bar{x}=\frac{\sum{x}}{n}$
+\item Estimate standard deviation: $\sigma=\sqrt{\frac{\sum(x-\bar{x})^{2}}{n-1}}$
+\item Estimate standard error of the mean: $sd(\bar{X})=\frac{\sigma}{\sqrt{n}}$
+\end{enumerate}
+\pause
+Hands-on exercise: Estimate $\bar{x},\sigma, sd(\bar{X})$ for the following sample:
+$9, 2, 5, 4$
 \end{frame}
+
+\begin{frame}{Solution}
+Mean: $\bar{x}=\frac{9 + 2 + 5 + 4}{4} = \frac{20}{4}=5$
+
+\pause
+
+$(9 - 5)^{2} = 4^{2} = 16$
+
+$(2 - 5)^{2} = (-3)^{2} = 9$
+
+$(5 - 5)^{2} = (0)^{2} = 0$
+
+$(4 - 5)^{2} = (1)^{2} = 1$
+
+\pause
+
+$16 + 9 +  0 + 1 = 26$
+
+\pause 
+
+Standard deviation: $\sigma=\sqrt{\frac{\sum(x-\bar{x})^{2}}{n-1}} = \sqrt{\frac{26}{4-1}}= 2.94392$
+
+\pause
+Standard error:  $sd(\bar{X})=\frac{\sigma}{\sqrt{n}}=\frac{2.94392}{\sqrt{4}}=1.47196$
+
+%https://www.mathsisfun.com/data/standard-deviation-formulas.html
+\end{frame}
+
+
+
+%The standard error of the mean is designated as: σM. It is the standard deviation of the sampling distribution of the mean. The formula for the standard error of the mean is:
+
+ %SE of the mean (e.g., suppose you have this sample, how would you calculate a. the mean, b. the SD, c. the SE of the mean).
 
 
 \begin{comment}

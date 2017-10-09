@@ -60,3 +60,11 @@ pdf("plots/mt_01_sampling_means.pdf", width = 10, height = 4)
 gridExtra::grid.arrange(hurling, football, nrow = 1)
 dev.off()
 
+
+std.error(c(9, 2, 5, 4))
+sqrt(26/3)
+
+std <- function(x) sd(x)/sqrt(length(x))
+std(c(9, 2, 5, 4))
+
+sd(c(9, 2, 5, 4))/sqrt(4)
