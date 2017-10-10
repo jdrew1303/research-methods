@@ -27,7 +27,7 @@ While we will cover a lot of the SPSS functions in the tutorials, for your homew
 Throughout both Michaelmas and Hilary term you will need to submit homeworks, assignments and a research project. You are free to conduct the homework with SPSS or an alternative statistical software (for example Stata or R, but _not_ Excel).
 
 Some general rules: 
-1. The assignments must be typed into a LaTeX or Word/Open Office document and submitted as a PDF via Turnitin. Screenshots of the SPSS output are _not_ sufficient as you will need to interpret the results and predures.
+1. The assignments must be typed into a LaTeX or Word/Open Office document and submitted as a PDF via Turnitin. Screenshots of the SPSS output are _not_ sufficient as you will need to describe and interpret the results and procedures.
 
 2. If you include tables, do not use a screenshot, but use the "export" function from SPSS. Please save figures appropriately in [high resolution](https://thepoliticalmethodologist.com/2013/11/25/making-high-resolution-graphics-for-academic-publishing/) (I recommend PDF as vector graphic formats have the best possible quality).
 
@@ -43,10 +43,15 @@ Below I post a selection of useful links for each tutorial. If you found additio
 
 ### Tutorial 01
 
-- [Introduction](https://libguides.library.kent.edu/SPSS/GettingStarted) to the SPSS Environment: 
-  - [Panels, symbols, output viewer](https://libguides.library.kent.edu/SPSS/Environment)
-  - [Syntax editor](https://www.spss-tutorials.com/spss-syntax-editor-window/)
-  - [Importing datasets](https://libguides.library.kent.edu/SPSS/ImportData)
-  - [Data organisation in spreadsheets](https://peerj.com/preprints/3183.pdf)
-  
 - [Tutorial Slides (MT 01)](https://github.com/stefan-mueller/po3600/blob/master/slides/mt_tut_01.pdf)
+
+#### Software
+- [Introduction](https://libguides.library.kent.edu/SPSS/GettingStarted) to the SPSS Environment: 
+- [Panels, symbols, output viewer](https://libguides.library.kent.edu/SPSS/Environment)
+- [Syntax editor](https://www.spss-tutorials.com/spss-syntax-editor-window/)
+- [Importing datasets](https://libguides.library.kent.edu/SPSS/ImportData)
+- [Data organisation in spreadsheets](https://peerj.com/preprints/3183.pdf)
+  
+#### Statistics
+- [Calculate mean and standard deviation by hand](https://www.mathsisfun.com/data/standard-deviation-formulas.html)
+- [Simulate the distribution of sample means](ttp://onlinestatbook.com/stat_sim/sampling_dist/)

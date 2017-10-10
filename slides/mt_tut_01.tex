@@ -131,7 +131,7 @@ Submit 4 homework exercises per term on Monday evening (11:59pm) preceding the t
 
 \end{frame}
 
-\begin{comment}
+
 \section{Support \& Additional Material}
 
 \begin{frame}{Support}
@@ -143,7 +143,7 @@ Submit 4 homework exercises per term on Monday evening (11:59pm) preceding the t
 \end{itemize}
 
 \end{frame}
-\end{comment}
+
 
 \section{How to Use SPSS}
 \begin{frame}{SPSS Exercise}
@@ -153,12 +153,78 @@ Submit 4 homework exercises per term on Monday evening (11:59pm) preceding the t
 \end{itemize}
 \end{frame}
 
+
+\section{Mean, Standard Deviation and Standard Error}
+
+\begin{frame}{Application: Mean and standard deviation (\#COYBIG)}
+
+\begin{figure} \centering
+\fbox{\includegraphics[width=.6\textwidth]{/Users/stefan/GitHub/po3600/plots/mt_01_georgia_ireland}} \\ \vspace{.5cm}
+\fbox{\includegraphics[width=.6\textwidth]{/Users/stefan/GitHub/po3600/plots/mt_01_wales_ireland}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Application: Mean and Standard Deviation (\#COYBIG)}
+
+\begin{figure} \centering
+\includegraphics[width=1\textwidth]{/Users/stefan/GitHub/po3600/plots/mt_01_ire_soccer.pdf}
+\end{figure}
+
+\begin{table}[]
+\centering \footnotesize
+\begin{tabular}{lllll}
+Match & $\bar{x}$ & $\sigma$ &  &  \\
+Georgia--Ireland & 4.63 & 0.81 &  &  \\
+Wales--Ireland & 7.91 & 0.83 &  &  \\
+ &  &  &  & 
+\end{tabular}
+\end{table}
+\end{frame}
+
+\begin{frame}{Estimate  mean, standard deviation, and standard error}
+\begin{enumerate}
+\item Estimate mean: $\bar{x}=\frac{\sum{x}}{n}$
+\item Estimate standard deviation: $\sigma=\sqrt{\frac{\sum(x-\bar{x})^{2}}{n-1}}$
+\item Estimate standard error of the mean: $sd(\bar{X})=\frac{\sigma}{\sqrt{n}}$
+\end{enumerate}
+%\pause
+Hands-on exercise: Estimate $\bar{x},\sigma, sd(\bar{X})$ for the following sample:
+$9, 2, 5, 4$
+\end{frame}
+
+\begin{frame}{Solution}
+Mean: $\bar{x}=\frac{9 + 2 + 5 + 4}{4} = \frac{20}{4}=5$
+
+%\pause
+
+$(9 - 5)^{2} = 4^{2} = 16$
+
+$(2 - 5)^{2} = (-3)^{2} = 9$
+
+$(5 - 5)^{2} = (0)^{2} = 0$
+
+$(4 - 5)^{2} = (1)^{2} = 1$
+
+%\pause
+
+$16 + 9 +  0 + 1 = 26$
+
+%\pause 
+
+Standard deviation: $\sigma=\sqrt{\frac{\sum(x-\bar{x})^{2}}{n-1}} = \sqrt{\frac{26}{4-1}}= 2.94392$
+
+%\pause
+Standard error:  $sd(\bar{X})=\frac{\sigma}{\sqrt{n}}=\frac{2.94392}{\sqrt{4}}=1.47196$
+
+%https://www.mathsisfun.com/data/standard-deviation-formulas.html
+\end{frame}
+
 \section{Distribution of the Sample Mean}
 
-\begin{frame}{Simulation}
-\url{http://onlinestatbook.com/stat_sim/sampling_dist/} \\
-(click ``Begin'' in the top left corner)
-\end{frame}
+%\begin{frame}{Simulation}
+%\url{http://onlinestatbook.com/stat_sim/sampling_dist/} \\
+%(click ``Begin'' in the top left corner)
+%\end{frame}
 
 \begin{frame}{Central Limit Theorem}
 As your sample size (\textit{n}) increases, we find a normal distribution when (for example) taking sample mean or sample sum.
@@ -166,7 +232,7 @@ As your sample size (\textit{n}) increases, we find a normal distribution when (
 \end{frame}
 
 \begin{frame}{Irish Example of Skewed Distribution}
-\pause
+%\pause
 \begin{figure} \centering
 \includegraphics[width=1\textwidth]{/Users/stefan/GitHub/po3600/plots/all_ireland.pdf}
 \end{figure}
@@ -196,44 +262,6 @@ As your sample size (\textit{n}) increases, we find a normal distribution when (
 \textit{Note:} 1000 random draws, plot distribution of means; hypothetical example as we draw from the population!
 \end{frame}
 
-
-\begin{frame}{Estimate  mean, standard deviation, and standard error}
-\begin{enumerate}
-\item Estimate mean: $\bar{x}=\frac{\sum{x}}{n}$
-\item Estimate standard deviation: $\sigma=\sqrt{\frac{\sum(x-\bar{x})^{2}}{n-1}}$
-\item Estimate standard error of the mean: $sd(\bar{X})=\frac{\sigma}{\sqrt{n}}$
-\end{enumerate}
-\pause
-Hands-on exercise: Estimate $\bar{x},\sigma, sd(\bar{X})$ for the following sample:
-$9, 2, 5, 4$
-\end{frame}
-
-\begin{frame}{Solution}
-Mean: $\bar{x}=\frac{9 + 2 + 5 + 4}{4} = \frac{20}{4}=5$
-
-\pause
-
-$(9 - 5)^{2} = 4^{2} = 16$
-
-$(2 - 5)^{2} = (-3)^{2} = 9$
-
-$(5 - 5)^{2} = (0)^{2} = 0$
-
-$(4 - 5)^{2} = (1)^{2} = 1$
-
-\pause
-
-$16 + 9 +  0 + 1 = 26$
-
-\pause 
-
-Standard deviation: $\sigma=\sqrt{\frac{\sum(x-\bar{x})^{2}}{n-1}} = \sqrt{\frac{26}{4-1}}= 2.94392$
-
-\pause
-Standard error:  $sd(\bar{X})=\frac{\sigma}{\sqrt{n}}=\frac{2.94392}{\sqrt{4}}=1.47196$
-
-%https://www.mathsisfun.com/data/standard-deviation-formulas.html
-\end{frame}
 
 
 
